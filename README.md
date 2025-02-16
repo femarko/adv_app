@@ -14,7 +14,7 @@
     - ```models.py``` - классы Python, *не связанные с таблицами БД*
     - ```services.py``` - функции, создающие пользователя / объявление, обновляющие и возвращающие их параметры
     - ```errors.py``` - кастомные классы исключений, использующиеся в приложении как часть бизнес-логики
-  - ```orm```:
+  - [orm](https://github.com/femarko/adv_app/tree/main/app/orm):
     - ```__init__.py``` - инициализация object-relational mapper (```SQLAlchemy```)
     - ```table-mapper.py``` - мэппинг классов python из ```models.py``` с таблицами БД (imperative mapping)
   - ```repository``` (абстракция постоянного хранилища данных):
