@@ -23,7 +23,7 @@
   - [pass_hashing_and_validation](https://github.com/femarko/adv_app/tree/main/app/pass_hashing_and_validation):
     - ```pass_hashing.py``` - хэширование паролей (библиотека ```bcrypt```)
     - ```validation.py``` - валидация входящих данных (библиотека ```pydantic```)
-  - ```flask_entrypoints``` (web-API приложения):
+  - [flask_entrypoints](https://github.com/femarko/adv_app/tree/main/app/flask_entrypoints) (web-API приложения):
     - ```views.py``` - функции, которые принимают HTTP-запросы, вызывают функции из ```service_layer/app_manager.py```, передают им входящие данные и зависимости, возвращают ответы на HTTP-запросы
     - ```authentication.py``` - аутентификация пользователей (библиотека ```flask_jwt_extended```)
     - ```error_handlers.py``` - реализация кастомного исключения для web-API
