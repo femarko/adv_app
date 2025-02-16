@@ -30,6 +30,6 @@
     - ```run_app.py``` - запуск приложения ```Flask```
     - ```__init__.py``` - инициализация приложения ```Flask```
 ### БД
-  - БД (```PostreSQL```) и средство просмотра ее таблиц (```PGAdmin```) поднимаются в docker-контейнерах (```docker-compose.yml```).
+  - БД (```PostreSQL```) и средство просмотра ее таблиц (```PGAdmin```) поднимаются в docker-контейнерах ([docker-compose.yml](https://github.com/femarko/adv_app/blob/main/docker-compose.yml)).
 
 
