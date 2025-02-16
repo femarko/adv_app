@@ -20,7 +20,7 @@
   - [repository](https://github.com/femarko/adv_app/tree/main/app/repository) (абстракция постоянного хранилища данных):
     - ```repository.py``` - абстракция, реализующая доступ к БД
     - ```filtering.py``` - функционал фильтрации данных из постоянного хранилища
-  - ```pass_hashing_and_validation```:
+  - [pass_hashing_and_validation](https://github.com/femarko/adv_app/tree/main/app/pass_hashing_and_validation):
     - ```pass_hashing.py``` - хэширование паролей (библиотека ```bcrypt```)
     - ```validation.py``` - валидация входящих данных (библиотека ```pydantic```)
   - ```flask_entrypoints``` (web-API приложения):
