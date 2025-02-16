@@ -17,7 +17,7 @@
   - [orm](https://github.com/femarko/adv_app/tree/main/app/orm):
     - ```__init__.py``` - инициализация object-relational mapper (```SQLAlchemy```)
     - ```table-mapper.py``` - мэппинг классов python из ```models.py``` с таблицами БД (imperative mapping)
-  - ```repository``` (абстракция постоянного хранилища данных):
+  - [repository](https://github.com/femarko/adv_app/tree/main/app/repository) (абстракция постоянного хранилища данных):
     - ```repository.py``` - абстракция, реализующая доступ к БД
     - ```filtering.py``` - функционал фильтрации данных из постоянного хранилища
   - ```pass_hashing_and_validation```:
